@@ -3,90 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sign up</title>
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/page.css"/>
 </head>
 <body>
     <div>
-        <form method="post" action="" enctype="multipart/form-data"></form>
-        <div>
-            <label>First Name</label><br>
-        <input type="text" 
-        name="first name :"
-         placeholder="Enter your first name"/>
-        </div>
-        <div>
-              <label>Last  Name</label><br>
-            <input type="text" 
-            name="first name :"
-             placeholder="Enter your last name"/>
+        <form method="post" action="" enctype="multipart/form-data">
+            <div>
+                <label>First Name</label>
+                <br/>
+                <input 
+                type="text"
+                name="fist name "
+                placeholder="enter your name"/>
             </div>
             <div>
-                <label>Email</label><br>
-                <input type="email" name="email" placeholder="Enter your email id"
-            </div><br>
-            <div>
-                <label>mobile number</label><br>
-                <input type="tel" name="mobile" placeholder="Enter your phone number"
-            </div><br>
-        <div>
-            <label for="maleid">male</label>
-            <input type="radio"
-            name="gender"
-            value="male"
-            id="maleid"/>
-           <label for="femaleid">female</label>
-            <input type="radio"
-            name="gender"
-            value="female"
-            id="femaleid"/>
+                <label>Email</label> 
+                <br/>
+                <input
+                type="email"
+                name="eml"
+                placeholder="enter your email"/>
     
-        </div>
-        <div>
-            <label>upload your photo</label>
-            <input type="file"
-            name="image"/>
-        </div>
-        <div>
-            <label>Age</label><br>
-            <input type="number"/>
-        </div>
-        <div>
-            <label>Address</label><br>
-            <textarea cols="30" rows="4"></textarea><br>
-        </div>
-        <div>
-            <label>subscription </label>
-            <select name="subc">
-                <option>select</option>
-                <option>furnitures</option>
-                <option>electronic gadgets</option>
-            </select><br>
-        </div>
-        <div>
-            <label for="username">User Name : </label><br>
-            <input type="text" 
-            name="username:"
-             placeholder="Enter your username"/>
             </div>
             <div>
-                  <label for="password">password :</label><br>
-                <input type="password" 
-                name="password :"
-                 placeholder="Enter your password here"/>
-                </div><br>
-                <div>
-                    <label for="confirm password">confirm password :</label><br>
-                  <input type="password" 
-                  name=" confirm password :"
-                   placeholder="Enter your password "/>
-                  </div><br>
-        <div>
-            <input type="checkbox" 
-            name="agree"
-            value="agree"/>
-            <label>I agree these informations are correct </label>
-        </div>
-        <button type="submit">submit</button>
+                <label>Password</label>
+                <br/>
+                <input
+                type="password"
+                name="pswd"
+                placeholder="enter your password"/>
+            </div>
+            <div>
+                <label>Phone</label>
+                <br/>
+                <input
+                type="tel"
+                name="mobile"
+                placeholder="enter your mobile number"/>
+
+            </div>
+            <div>
+                <label for="maleid">Male</label>
+                <input
+                type="radio"
+                name="gender"
+                value="male"
+                id="maleid"/>
+                <label for="femaleid">Female</label>
+                <input
+                type="radio"
+                name="gender"
+                value="female"
+                id="femaleid"/>
+                <label for="otherid">Others</label>
+                <input
+                type="radio"
+                name="gender"
+                value="others"
+                id="otherid"/>
+
+            </div>
+            <div>
+                <label>Age</label>
+                <input
+                type="number"
+                min="18"
+                max="60"/>
+            </div>
+            <div>
+                <label>Address</label>
+                <br/>
+                <textarea cols="30" rows="3"></textarea>
+            </div>
+            <div>
+                <label>State</label>
+                <select name="st">
+                    <option>Select</option>
+                    <option>Kerala</option>
+                    <option>Tamilnadu</option>
+                    <option>Karnataka</option>
+                </select>
+            </div>
+            <div>
+                <label>Upload your photo</label>
+                <input
+                type="file"
+                name="img"/>
+            </div>
+            <div>
+                <input 
+                type="checkbox"
+                name="Agree"
+                value="agree"/>
+                <label>I agree the contract</label>
+            </div>
+            <button type ="submit">Submit</button>
+
+        </form>
     </div>
 </body>
 </html>
