@@ -55,7 +55,7 @@ body{
 }
 .logo{
     width:25%;
-    text-align: center;
+    text-align:justify;
 }
 .naves{
     width:50%;
@@ -69,14 +69,14 @@ body{
 .naves a{
     
     text-decoration: none;
-    color:orange;
+    color:rgb(44, 28, 28);
     font-size: 20px;
 }
 .naves a:hover{
     color:white;
 }
 .btn{
-    background: linear-gradient(45deg,transparent,rgb(204, 212, 204),transparent);
+    background: linear-gradient(45deg,transparent,rgb(233, 219, 226),transparent);
     padding:20px;
     border-radius:50%;
 }
@@ -91,4 +91,28 @@ body{
 .fb{
     color:white;
     font-size: 20px;
+}
+menu >.dropdown{
+    display: none;
+    background-color: white;
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    align-items: center;
+   padding: 0px;
+   z-index: 99999999;
+}
+.dropdown li{
+    list-style: none;
+    text-align: center;
+   padding: 10px;
+    border-radius: 10px solid grey;
+    width: 100%;
+}
+.naves >menu:hover .dropdown{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    color: white;
+    background-color: aqua;
 }

@@ -1,0 +1,161 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width:100%;
+    padding: 15px;
+    
+    display: flex;
+    justify-content: space-between;
+    z-index: 9999;
+    height: 50px;
+    align-items: center;
+    
+    
+}
+.sections{
+    
+    display: flex;
+    
+    width: 30%;
+    display: flex;
+    
+    padding-left: 10px;
+    font-size: 20px;
+    text-align: left;
+    display: flex;
+    gap: 20px;
+    
+}
+.edit{
+    flex-direction: column;
+    
+}
+
+    
+
+.newletters{
+    display: flex;
+    background-color: blue;
+    color: white;
+}
+.icons{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-right: 10px;
+}
+.fb{
+    color: grey;
+    font-size: 20px;
+}
+.lang{
+    display: flex;
+    font-size: 20px;
+}
+.edition img{
+    width: 5%;
+    size: 10%;
+    height: 40px;
+    position: fixed;
+    padding: 60px;
+    padding-top: 0px;
+}
+.edition{
+    display: flex;
+    padding-top: 65px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.nounderline{
+    text-decoration: none;
+    color: gray;
+
+}
+.date-time{
+    flex-direction: column;
+    padding-top: 50px;
+    font-size: 20px;
+    padding: 50px;
+    padding-left: 0px;
+    text-align: left;
+    margin-left: 0px;
+    flex-direction: column;
+    width: 0px;
+}
+.nav img{
+    width: 5%;
+    size: 20%;
+    height: 65px;
+    position: fixed;
+    padding: 65px;
+    color: red;
+}
+.logo1{
+    color: red;
+    
+
+    width: 5%;
+     size: 20%;
+     height: 65px;
+     position: fixed;
+    padding-left: 450px;
+    padding-top: 0px;
+    color: red;
+    }
+    
+    
+    
+
+.logo2{
+    font-size: 40px;
+    text-align: center;
+    padding-left: 500px;
+    padding-top: 0px;
+    margin-top: 0px;
+    display: flex;
+    
+    
+    justify-content: center;
+}
+.divider{
+    width: 100%;
+    padding-top: 0px;
+    height: 1px;
+     background-color: gray;
+     padding: 0px;
+     gap: 1px;
+   }
+   .links{
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+    font-size: 25px;
+    color:gray;
+   }
+   .btn{
+    background-color:navy;
+    padding: 5px;
+    border-radius: 10%;
+   }
+   .btn2{
+    background-color:gray;
+    padding: 5px;
+    border-radius: 10%;
+    
+   }
+   
+   .btn3{
+    
+    background-color:red;
+     padding: 5px;
+    border-radius: 10%;
+   }
+   .trend {
+    display: flex;
+    gap:40px;
+    text-decoration: none;
+    justify-content: center;
+    color:gray
+   }
